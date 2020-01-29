@@ -1,14 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './component/Navbar'
+import axios from 'axios'
 
-function App() {
-  return (
-    <div className="App">
-     <Navbar />
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      events:[],
+    }
+  }
+  componentDidMount() {
+    axios
+      .get('http://localhost:8000/events')
+      .then(response => response.data)
+      .then(data => {
+        this.setState({
+          events: data
+        })
+      })
+  }    
+  render(){
+    return(
+      <div className="App">
+      <Navbar />
+      </div>
+    )
+  };
 }
 
 export default App;
