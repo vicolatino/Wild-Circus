@@ -28,4 +28,4 @@ function Navbar(props){
     )
 };
 
-export default Sidebar;
+export default Navbar;
