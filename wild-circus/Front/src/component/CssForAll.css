@@ -1,0 +1,23 @@
+.Flex {
+    display: flex;
+}
+
+.Column {
+  flex-direction: column;  
+}
+
+.SpaceAround {
+    justify-content:space-around;
+}
+
+.ItemCenter {
+    align-items: center;
+}
+
+.MaxWidth {
+    width: 100%;
+}
+
+.NoStyleList {
+    list-style: none;
+}
