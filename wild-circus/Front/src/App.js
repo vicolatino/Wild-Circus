@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Home from './component/Home'
 import Navbar from './component/Navbar'
 import axios from 'axios'
 
@@ -24,6 +25,7 @@ class App extends React.Component {
     return(
       <div className="App">
       <Navbar />
+      <Home />
       </div>
     )
   };
