@@ -1,19 +1,21 @@
+.customWidth {
+    width: 83% !important;
+}
+
 .FamilyContainer img {
-    object-fit: scale-down;
-    height: 44%
+    /* object-fit: scale-down; */
+    width: 95%;
+    height: auto;
 }
 
-.FamilyContainer div {
-    width: 30%;
-}
 
-.FamilyContainer {
-    height: 95vh;
-}
+
 
 .FamilyContainer p {
     width: 70%;
 }
-.WomenTiger {
-    height: 44%;
+
+.FamilyTitle {
+    margin: 5%;
 }
+
