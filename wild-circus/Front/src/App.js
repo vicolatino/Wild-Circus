@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './component/Home'
+import TheFamily from './component/TheFamily'
 import Navbar from './component/Navbar'
 import axios from 'axios'
 
@@ -26,6 +27,7 @@ class App extends React.Component {
       <div className="App">
       <Navbar />
       <Home />
+      <TheFamily />
       </div>
     )
   };
