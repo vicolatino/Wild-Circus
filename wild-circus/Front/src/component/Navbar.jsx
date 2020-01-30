@@ -4,18 +4,18 @@ import './CssForAll.css'
 
 function Navbar(props){
     return(
-        <div className='NavBarContainer Flex '>
+        <div className='NavBarContainer Flex SpaceBetween'>
             <ul className='Flex SpaceAround MaxWidth ItemCenter'>
-                <li className='NoStyleList'>
+                <li className='NoStyleList BorderRight WidthLinkBar'>
                     home
                 </li>
-                <li className='NoStyleList'>
+                <li className='NoStyleList BorderRight WidthLinkBar'>
                     About us
                 </li>
-                <li className='NoStyleList'>
+                <li className='NoStyleList BorderRight WidthLinkBar'>
                     News
                 </li>
-                <li className='NoStyleList'>
+                <li className='NoStyleList WidthLinkBar '>
                     Contact
                 </li>
             </ul>
