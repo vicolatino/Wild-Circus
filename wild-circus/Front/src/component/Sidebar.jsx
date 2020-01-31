@@ -1,4 +1,4 @@
-import { push as Menu } from 'react-burger-menu';
+import { slide as Menu } from 'react-burger-menu';
 import React from 'react';
 import './Sidebar.css'
 import { Link } from 'react-scroll'

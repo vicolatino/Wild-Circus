@@ -87,7 +87,7 @@
         height: auto;
     }
     .FamilyContainer p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .FamilyTitle {
         font-size: 1.2rem;
@@ -123,5 +123,8 @@
     }
     .bm-menu {
         display: block;
+    }
+    .ArticleContainer {
+        font-size: 0.9em;
     }
 }
